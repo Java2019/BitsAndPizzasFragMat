@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.use.bitsandpizzasfrag">
+          package="com.example.use.bitsandpizzasfragmat">
 
     <application
             android:allowBackup="true"
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-                android:name=".OrderActivity">
+                android:name="com.example.use.bitsandpizzasfragmat.OrderActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".MainActivity"/>
