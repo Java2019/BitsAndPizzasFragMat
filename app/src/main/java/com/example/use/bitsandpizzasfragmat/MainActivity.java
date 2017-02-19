@@ -39,7 +39,7 @@ public class MainActivity extends Activity{
         Fragment fragment;
         switch(i){
             case 1:
-                fragment = new PizzaFragment();
+                fragment = new PizzaMaterialFragment();
                 break;
             case 2:
                 fragment = new PastaFragment();
@@ -116,7 +116,7 @@ public class MainActivity extends Activity{
                 if (fragment instanceof TopFragment) {
                     currentPosition = 0;
                 }
-                if (fragment instanceof PizzaFragment) {
+                if (fragment instanceof PizzaMaterialFragment) {
                     currentPosition = 1;
                 }
                 if (fragment instanceof PastaFragment) {
