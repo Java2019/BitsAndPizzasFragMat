@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class PizzaDetailActivity extends Activity {
 
     private ShareActionProvider shareActionProvider;
-    private static final String EXTRA_PIZZANO = "pizzaNO";
+    public static final String EXTRA_PIZZANO = "pizzaNO";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
